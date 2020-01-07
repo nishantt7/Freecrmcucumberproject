@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Free crm user login test",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-user-login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "Loginstepdefinition.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#When title of login page is freecrm"
+              }
+            ],
+            "line": 7,
+            "name": "user enters username \"pranshoomalhotra@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pranshoomalhotra@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "Loginstepdefinition.user_enters_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user enters password \"Freecrm@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Freecrm@123",
+                  "offset": 22
+                }
+              ],
+              "location": "Loginstepdefinition.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "Loginstepdefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free crm login feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
